@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 15.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnetcore_vervoort_kobe", "aspnetcore_vervoort_kobe.csproj", "{DCE721D9-4A81-417F-8456-A94E443F15FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE721D9-4A81-417F-8456-A94E443F15FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE721D9-4A81-417F-8456-A94E443F15FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE721D9-4A81-417F-8456-A94E443F15FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE721D9-4A81-417F-8456-A94E443F15FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

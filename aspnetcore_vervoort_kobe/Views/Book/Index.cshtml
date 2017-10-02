@@ -1,0 +1,34 @@
+﻿@model BookListViewModel
+
+@{
+    ViewData["Title"] = "Overzicht boeken";
+}
+
+<div class="row">
+
+    <div class="col-md-12">
+
+		<table>
+
+			<tr>
+                <th>Title</th>  
+				<th>Author</th>  
+				<th>ISBN</th>  
+                <th>Created on</th>
+			</tr>
+        
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.ISBN</td>
+				    <td>@book.CreatedOn</td>
+                </tr>
+            }
+
+        </table>
+
+	</div>
+	
+</div>

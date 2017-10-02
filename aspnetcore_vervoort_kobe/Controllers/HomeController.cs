@@ -18,8 +18,13 @@ namespace aspnetcore_vervoort_kobe.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            var model = new AboutModel
+            {
+                Name = "kobe",
+                DaysUntilBirthday = (new DateTime(2018, 09, 20) - DateTime.Now).TotalDays
+            };
 
-            return View();
+            return View(model);
         }
 
         public IActionResult Contact()
